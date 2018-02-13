@@ -1,0 +1,22 @@
+package installator;
+
+import javax.swing.SwingUtilities;
+
+import configurator.model.Project;
+import installator.gui.InstallatorMainFrame;
+import installator.gui.SelectProjectDialog;
+
+public class InstallatorApp {
+	
+	public static void main(String[] args) {
+
+		new SelectProjectDialog().setVisible(true);
+		final Project project = SelectProjectDialog.getProject();
+		
+		if(project != null) {
+			SwingUtilities.invokeLater(() -> 
+			InstallatorMainFrame.getInstance().setVisible(true));			
+		}
+	}
+
+}
