@@ -1,14 +1,7 @@
-/**
- * 
- */
 package installator.model;
 
 import configurator.model.Project;
 
-/**
- * @author Nemanja Simic
- *
- */
 public class Setup {
 
 	// loaded project

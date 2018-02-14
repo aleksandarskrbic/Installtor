@@ -1,6 +1,3 @@
-/**
- * 
- */
 package configurator.storage;
 
 import java.io.File;
@@ -10,10 +7,6 @@ import javax.swing.filechooser.FileFilter;
 import configurator.Constants;
 import localization.LanguageManager;
 
-/**
- * @author Nemanja Simic
- *
- */
 public class ProjectFileFilter extends FileFilter {
 	
 	public ProjectFileFilter() { }

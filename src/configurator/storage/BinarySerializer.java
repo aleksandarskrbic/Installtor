@@ -1,6 +1,3 @@
-/**
- * 
- */
 package configurator.storage;
 
 import java.io.BufferedInputStream;
@@ -19,10 +16,6 @@ import java.util.List;
 import configurator.Constants;
 import configurator.model.Project;
 
-/**
- * @author Nemanja Simic
- *
- */
 public class BinarySerializer implements FileManager {
 	
 	private ObjectOutputStream outStream;

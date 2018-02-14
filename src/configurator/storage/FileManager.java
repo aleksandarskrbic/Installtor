@@ -1,6 +1,3 @@
-/**
- * 
- */
 package configurator.storage;
 
 import java.io.File;
@@ -9,10 +6,6 @@ import java.util.List;
 
 import configurator.model.Project;
 
-/**
- * @author Nemanja Simic
- *
- */
 public interface FileManager {
 
 	void saveWorkspace(List<Project> projects, Path location);

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package installator.builder;
 
 import java.util.ArrayList;
@@ -28,9 +25,6 @@ import configurator.model.parameter.TextParameter;
 /**
  * Obradjivac wizarda
  * Generise GUI elemente za parametre koji se nalaze u wizardu
- * 
- * @author Nemanja Simic
- *
  */
 public class ComponentGenerator {
 

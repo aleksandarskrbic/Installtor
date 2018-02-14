@@ -13,7 +13,6 @@ import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
-import javax.swing.WindowConstants;
 
 import org.apache.commons.io.FileUtils;
 
@@ -24,11 +23,6 @@ import installator.gui.SelectProjectDialog;
 import installator.model.Setup;
 import localization.LanguageManager;
 
-/**
- * 
- * @author Nemanja Simic
- *
- */
 public class WizardBuilder implements ActionListener {
 
 	private static WizardBuilder instance;

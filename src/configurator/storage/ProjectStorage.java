@@ -9,10 +9,6 @@ import configurator.model.Project;
 import configurator.model.Wizard;
 import configurator.model.parameter.AbstractParameter;
 
-/**
- * @author pavle
- *
- */
 public class ProjectStorage {
 
 	private static ProjectStorage projectStorage = null;
